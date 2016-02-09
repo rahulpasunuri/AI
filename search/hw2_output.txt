@@ -1,0 +1,83 @@
+Doing Depth First Search  on easy:
+The solution's cost is: 10.1, and involved expanding 35 verticies
+Finding the solution involved 0.00935411453247 seconds of walltime
+----------------------------------------------------------------------------------
+Doing Breadth First Search on easy:
+The solution's cost is: 2.1, and involved expanding 13 verticies
+Finding the solution involved 0.00463199615479 seconds of walltime
+----------------------------------------------------------------------------------
+Doing Best First with heuristic absolute_heuristic on easy:
+The solution's cost is: 2.1, and involved expanding 4 verticies
+Finding the solution involved 0.0014750957489 seconds of walltime
+----------------------------------------------------------------------------------
+Doing A* with heuristic absolute_heuristic on easy:
+The solution's cost is: 2.1, and involved expanding 4 verticies
+Finding the solution involved 0.00147819519043 seconds of walltime
+----------------------------------------------------------------------------------
+Doing Best First with heuristic greedy_heuristic on easy:
+The solution's cost is: 2.1, and involved expanding 4 verticies
+Finding the solution involved 0.00143694877625 seconds of walltime
+----------------------------------------------------------------------------------
+Doing A* with heuristic greedy_heuristic on easy:
+The solution's cost is: 2.1, and involved expanding 4 verticies
+Finding the solution involved 0.00146508216858 seconds of walltime
+----------------------------------------------------------------------------------
+Doing Depth First Search  on medium:
+Ran out of time for thinking
+The queue is of size: 3754
+Doing Breadth First Search on medium:
+Ran out of time for thinking
+The queue is of size: 10053
+Doing Best First with heuristic absolute_heuristic on medium:
+The solution's cost is: 24.3, and involved expanding 38 verticies
+Finding the solution involved 0.0197360515594 seconds of walltime
+----------------------------------------------------------------------------------
+Doing A* with heuristic absolute_heuristic on medium:
+The solution's cost is: 17.3, and involved expanding 176 verticies
+Finding the solution involved 0.0971729755402 seconds of walltime
+----------------------------------------------------------------------------------
+Doing Best First with heuristic greedy_heuristic on medium:
+The solution's cost is: 19.7, and involved expanding 160 verticies
+Finding the solution involved 0.0800909996033 seconds of walltime
+----------------------------------------------------------------------------------
+Doing A* with heuristic greedy_heuristic on medium:
+The solution's cost is: 17.3, and involved expanding 1052 verticies
+Finding the solution involved 0.827955007553 seconds of walltime
+----------------------------------------------------------------------------------
+Doing Depth First Search  on hard:
+Ran out of time for thinking
+The queue is of size: 7221
+Doing Breadth First Search on hard:
+Ran out of time for thinking
+The queue is of size: 13178
+Doing Best First with heuristic absolute_heuristic on hard:
+Ran out of time for thinking
+The queue is of size: 1315
+Doing A* with heuristic absolute_heuristic on hard:
+The solution's cost is: 42.3, and involved expanding 1530 verticies
+Finding the solution involved 1.76468396187 seconds of walltime
+----------------------------------------------------------------------------------
+Doing Best First with heuristic greedy_heuristic on hard:
+Ran out of time for thinking
+The queue is of size: 12288
+Doing A* with heuristic greedy_heuristic on hard:
+Ran out of time for thinking
+The queue is of size: 18787
+DFS is darkseagreen
+BFS is floralwhite
+Best_absolute_heuristic is seashell
+A*_absolute_heuristic is palegreen
+Best_greedy_heuristic is lightgray
+A*_greedy_heuristic is lightsalmon
+DFS is darkseagreen
+BFS is floralwhite
+Best_absolute_heuristic is seashell
+A*_absolute_heuristic is palegreen
+Best_greedy_heuristic is lightgray
+A*_greedy_heuristic is lightsalmon
+DFS is darkseagreen
+BFS is floralwhite
+Best_absolute_heuristic is seashell
+A*_absolute_heuristic is palegreen
+Best_greedy_heuristic is lightgray
+A*_greedy_heuristic is lightsalmon

@@ -1,0 +1,540 @@
+Techniques Used:
+- Initial Population is created randomly, but care is taken that, atleast one of the individual of the initial population is fit.
+- Elitism is implemented, where 15% of the elites are passed on directly to the next generations.
+- Parents for crossover are selected on the roulette-wheel selection strategy.
+- Unfit chromosomes are given a fitness value of 0, so they will never be picked in the roulette wheel selection. So, they will never reproduce.
+- The code is run with multiple values of mutation probability (range of 0-0.9 with steps of 0.1), and initial population (range of 5-45, with steps of 5)
+
+Summary of Results:
+- Note that, the total number of items in the easy and sanity_check difficulty levels is too low. The total number of possible chromosomes is too low, and the "fit" chromosome count is much lower. So, if we have a high enough initial population size, the chance of getting the optimal chromosome in the initial generations is way too high. That is the same exact behaviour which is observed in the results. Most of the times, the optimal results was found in the 0th or the 1st generations itself.
+
+- As a general trend, it is noticed that increasing the initial poulation gives a better chance at getting the optimal value, but no noticable effect on the optimal value was present after the initial population was increased beyond a limit. From the perspective of genetic algorithms, it makes sense because, if we start with a variety of chromosomes, we have a better chance of getting the optimal chromosome, and as this variety of chromosomes can be encoded with some reasonable number of chromosomes, increasing the initial population more than this limit, will not be of any significant advantage.
+
+- Also, it is observed that the mutation probability has to be either too high, or either too low, for the genetic algorithm to work.
+
+
+Note:
+As, both mutation and crossover are stochastic, the genetic algorithm gives different results each time the program is run. 
+
+The results of all the runs are presented below:
+====================================================================================================
+Best Results overall are:
+====================================================================================================
+----------------------------------------
+For Difficulty:   sanity_check
+	Max value was:    100.0
+	Generation:       0
+	Init Population:  5
+	Mutation Prob    : 0.1
+----------------------------------------
+
+----------------------------------------
+For Difficulty:   easy
+	Max value was:    15.0
+	Generation:       0
+	Init Population:  5
+	Mutation Prob    : 0.4
+----------------------------------------
+
+----------------------------------------
+For Difficulty:   medium
+	Max value was:    158.0
+	Generation:       16
+	Init Population:  45
+	Mutation Prob    : 0.4
+----------------------------------------
+
+----------------------------------------
+For Difficulty:   hard
+	Max value was:    17561.8012155
+	Generation:       60
+	Init Population:  40
+	Mutation Prob    : 0.9
+----------------------------------------
+
+
+
+====================================================================================================
+Results with varying initial Population are: (averaged across multiple mutation probabilities)
+====================================================================================================
+----------------------------------------
+For Difficulty:   sanity_check
+
+----------------------------------------
+For Init Population:  5
+	Avg. Value is:  98.0
+	Avg. Year is:  0.1
+----------------------------------------
+
+----------------------------------------
+For Init Population:  10
+	Avg. Value is:  98.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  15
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  20
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  25
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  30
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  35
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  40
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  45
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Difficulty:   easy
+
+----------------------------------------
+For Init Population:  5
+	Avg. Value is:  12.8
+	Avg. Year is:  0.9
+----------------------------------------
+
+----------------------------------------
+For Init Population:  10
+	Avg. Value is:  13.9
+	Avg. Year is:  0.7
+----------------------------------------
+
+----------------------------------------
+For Init Population:  15
+	Avg. Value is:  14.4
+	Avg. Year is:  0.5
+----------------------------------------
+
+----------------------------------------
+For Init Population:  20
+	Avg. Value is:  14.1
+	Avg. Year is:  0.3
+----------------------------------------
+
+----------------------------------------
+For Init Population:  25
+	Avg. Value is:  14.3
+	Avg. Year is:  0.2
+----------------------------------------
+
+----------------------------------------
+For Init Population:  30
+	Avg. Value is:  14.4
+	Avg. Year is:  0.5
+----------------------------------------
+
+----------------------------------------
+For Init Population:  35
+	Avg. Value is:  14.6
+	Avg. Year is:  0.1
+----------------------------------------
+
+----------------------------------------
+For Init Population:  40
+	Avg. Value is:  14.8
+	Avg. Year is:  0.4
+----------------------------------------
+
+----------------------------------------
+For Init Population:  45
+	Avg. Value is:  14.6
+	Avg. Year is:  0.2
+----------------------------------------
+
+----------------------------------------
+For Difficulty:   medium
+
+----------------------------------------
+For Init Population:  5
+	Avg. Value is:  112.8
+	Avg. Year is:  0.7
+----------------------------------------
+
+----------------------------------------
+For Init Population:  10
+	Avg. Value is:  119.3
+	Avg. Year is:  0.7
+----------------------------------------
+
+----------------------------------------
+For Init Population:  15
+	Avg. Value is:  125.9
+	Avg. Year is:  2.5
+----------------------------------------
+
+----------------------------------------
+For Init Population:  20
+	Avg. Value is:  119.0
+	Avg. Year is:  1.3
+----------------------------------------
+
+----------------------------------------
+For Init Population:  25
+	Avg. Value is:  122.9
+	Avg. Year is:  3.5
+----------------------------------------
+
+----------------------------------------
+For Init Population:  30
+	Avg. Value is:  128.1
+	Avg. Year is:  3.4
+----------------------------------------
+
+----------------------------------------
+For Init Population:  35
+	Avg. Value is:  133.7
+	Avg. Year is:  7.2
+----------------------------------------
+
+----------------------------------------
+For Init Population:  40
+	Avg. Value is:  135.1
+	Avg. Year is:  5.5
+----------------------------------------
+
+----------------------------------------
+For Init Population:  45
+	Avg. Value is:  132.4
+	Avg. Year is:  6.4
+----------------------------------------
+
+----------------------------------------
+For Difficulty:   hard
+
+----------------------------------------
+For Init Population:  5
+	Avg. Value is:  12464.1311977
+	Avg. Year is:  7.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  10
+	Avg. Value is:  12962.6282026
+	Avg. Year is:  13.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  15
+	Avg. Value is:  13694.1352626
+	Avg. Year is:  23.4
+----------------------------------------
+
+----------------------------------------
+For Init Population:  20
+	Avg. Value is:  14165.5018102
+	Avg. Year is:  22.0
+----------------------------------------
+
+----------------------------------------
+For Init Population:  25
+	Avg. Value is:  15054.3748518
+	Avg. Year is:  36.8
+----------------------------------------
+
+----------------------------------------
+For Init Population:  30
+	Avg. Value is:  15084.5166408
+	Avg. Year is:  37.8
+----------------------------------------
+
+----------------------------------------
+For Init Population:  35
+	Avg. Value is:  15700.4731217
+	Avg. Year is:  41.2
+----------------------------------------
+
+----------------------------------------
+For Init Population:  40
+	Avg. Value is:  16343.6106913
+	Avg. Year is:  40.8
+----------------------------------------
+
+----------------------------------------
+For Init Population:  45
+	Avg. Value is:  16437.5369339
+	Avg. Year is:  50.0
+----------------------------------------
+
+
+
+====================================================================================================
+Results with varying mutation probabilities are: (averaged across multiple initial populations..)
+====================================================================================================
+For Difficulty:   sanity_check
+
+----------------------------------------
+For Mutation:  0.0
+	Avg. Value is:  97.7777777778
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.1
+	Avg. Value is:  95.5555555556
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.2
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.3
+	Avg. Value is:  100.0
+	Avg. Year is:  0.222222222222
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.4
+	Avg. Value is:  97.7777777778
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.5
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.6
+	Avg. Value is:  100.0
+	Avg. Year is:  0.111111111111
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.7
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.8
+	Avg. Value is:  100.0
+	Avg. Year is:  0.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.9
+	Avg. Value is:  100.0
+	Avg. Year is:  0.222222222222
+----------------------------------------
+
+For Difficulty:   easy
+
+----------------------------------------
+For Mutation:  0.0
+	Avg. Value is:  14.5555555556
+	Avg. Year is:  0.555555555556
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.1
+	Avg. Value is:  13.7777777778
+	Avg. Year is:  0.666666666667
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.2
+	Avg. Value is:  14.3333333333
+	Avg. Year is:  0.333333333333
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.3
+	Avg. Value is:  14.0
+	Avg. Year is:  0.222222222222
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.4
+	Avg. Value is:  13.8888888889
+	Avg. Year is:  0.666666666667
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.5
+	Avg. Value is:  14.4444444444
+	Avg. Year is:  0.333333333333
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.6
+	Avg. Value is:  14.3333333333
+	Avg. Year is:  0.333333333333
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.7
+	Avg. Value is:  14.5555555556
+	Avg. Year is:  0.111111111111
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.8
+	Avg. Value is:  15.0
+	Avg. Year is:  0.222222222222
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.9
+	Avg. Value is:  13.4444444444
+	Avg. Year is:  0.222222222222
+----------------------------------------
+
+For Difficulty:   medium
+
+----------------------------------------
+For Mutation:  0.0
+	Avg. Value is:  114.0
+	Avg. Year is:  3.44444444444
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.1
+	Avg. Value is:  123.555555556
+	Avg. Year is:  4.22222222222
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.2
+	Avg. Value is:  122.111111111
+	Avg. Year is:  2.22222222222
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.3
+	Avg. Value is:  129.444444444
+	Avg. Year is:  4.55555555556
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.4
+	Avg. Value is:  132.222222222
+	Avg. Year is:  3.77777777778
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.5
+	Avg. Value is:  131.666666667
+	Avg. Year is:  6.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.6
+	Avg. Value is:  134.444444444
+	Avg. Year is:  3.11111111111
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.7
+	Avg. Value is:  118.0
+	Avg. Year is:  2.77777777778
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.8
+	Avg. Value is:  134.111111111
+	Avg. Year is:  8.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.9
+	Avg. Value is:  125.111111111
+	Avg. Year is:  3.44444444444
+----------------------------------------
+
+For Difficulty:   hard
+
+----------------------------------------
+For Mutation:  0.0
+	Avg. Value is:  14463.7545139
+	Avg. Year is:  22.5555555556
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.1
+	Avg. Value is:  14521.2865311
+	Avg. Year is:  32.6666666667
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.2
+	Avg. Value is:  14697.5709705
+	Avg. Year is:  31.0
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.3
+	Avg. Value is:  14033.3579579
+	Avg. Year is:  26.3333333333
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.4
+	Avg. Value is:  14104.0185249
+	Avg. Year is:  27.2222222222
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.5
+	Avg. Value is:  14378.1583134
+	Avg. Year is:  45.8888888889
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.6
+	Avg. Value is:  14201.3977371
+	Avg. Year is:  24.1111111111
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.7
+	Avg. Value is:  14742.9439676
+	Avg. Year is:  29.3333333333
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.8
+	Avg. Value is:  13941.983662
+	Avg. Year is:  29.7777777778
+----------------------------------------
+
+----------------------------------------
+For Mutation:  0.9
+	Avg. Value is:  14134.2256176
+	Avg. Year is:  29.4444444444
+----------------------------------------
+

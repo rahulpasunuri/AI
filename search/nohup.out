@@ -1,0 +1,48 @@
+
+** (gedit:6360): WARNING **: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-ShCh3J2odg: Connection refused
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.25QS5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.WOJF5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.D24E5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.RNYU5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.3XZT5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.JRBU5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.XD0H5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.J4RP5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.2K6F5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.VSOC5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.CI0J5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.4X0H5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.SNIH5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.EC7L5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.HXXM5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): dconf-WARNING **: failed to commit changes to dconf: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code24: Failed to write file '/u/rahupasu/.config/dconf/user.0RQF5X': fsync() failed: Disk quota exceeded
+
+(gedit:14108): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.IMDH5X': fsync() failed: Disk quota exceeded
+
+(gedit:16598): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.WC8N5X': fsync() failed: Disk quota exceeded
+
+(gedit:16598): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.ZJRK5X': fsync() failed: Disk quota exceeded
+
+(gedit:16598): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.KI8C5X': fsync() failed: Disk quota exceeded
+
+(gedit:16598): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.4XQE5X': fsync() failed: Disk quota exceeded
+
+(gedit:16598): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.SXNE5X': fsync() failed: Disk quota exceeded
+
+(gedit:16598): Gtk-WARNING **: Attempting to store changes into `/u/rahupasu/.local/share/recently-used.xbel', but failed: Failed to write file '/u/rahupasu/.local/share/recently-used.xbel.QF2T5X': fsync() failed: Disk quota exceeded
